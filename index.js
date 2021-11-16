@@ -1,4 +1,4 @@
-/ Original Code By Webdevtrick ( https://webdevtrick.com )
+// Original Code By Webdevtrick ( https://webdevtrick.com )
 function showTime(){
  var date = new Date();
  var h = date.getHours(); 
@@ -9,7 +9,7 @@ function showTime(){
  m = (m < 10) ? "0" + m : m;
  s = (s < 10) ? "0" + s : s;
  
- var time = h + ":" + m + ":" + s + " " + session;
+ var time = h + ":" + m + ":" + s;
  document.getElementById("DigitalCLOCK").innerText = time;
  document.getElementById("DigitalCLOCK").textContent = time;
  
